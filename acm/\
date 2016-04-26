@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	double s, n, m, kase = 1;
+	for(;;){
+		scanf("%d%d", &n, &m)
+		if(n == 0)
+			exit(0);
+		for(;; n++){
+			if(n > m)
+				break;
+			s += 1 / (n * n); 
+		}
+		printf("Case %d: %f", kase, s);
+	}
+	return 0;
+}
